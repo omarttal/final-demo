@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(73, 0, 0);
+}
+.section-1 {
+  position: relative;
+  background-color: black;
+}
+.space {
+  width: 100%;
+  filter: blur(6px);
+}
+.about {
+  position: absolute;
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-family: "Electrolize";
+}
+.par {
+  position: absolute;
+  font-size: 3.5vw;
+  color: rgb(255, 255, 255);
+  top: 60%;
+  left: 25%;
+  transform: translate(-25%, -60%);
+  font-family: "Electrolize";
+  width: 85%;
+}
+.section-2 {
+  margin-top: 1vw;
+  background-color: black;
+  position: relative;
+}
+.space2 {
+  width: 100%;
+  filter: blur(5px);
+}
+.aboutbd {
+  position: absolute;
+  font-size: 5vw;
+  color: rgb(255, 255, 255);
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-family: "Electrolize";
+}
+.par2 {
+  position: absolute;
+  font-size: 3vw;
+  color: rgb(255, 255, 255);
+  top: 65%;
+  left: 25%;
+  transform: translate(-25%, -65%);
+  font-family: "Electrolize";
+  width: 85%;
+}
+span {
+  color: rgb(122, 0, 0);
+}

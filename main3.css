@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  font-family: "Poppins";
+  background-color: rgb(255, 255, 255);
+  /* box-sizing: border-box; */
+}
+/* .container2 {
+  background-image: url("imgs/candels3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* .img {
+  position: absolute;
+  height: 800px;
+  clip-path: polygon(0 0, 89% 0, 100% 22%, 9% 21%);
+} */
+.top-img {
+  width: 98%;
+  margin: 1%;
+  background-size: cover;
+  clip-path: polygon(
+    50% 3%,
+    75% 10%,
+    100% 0,
+    100% 100%,
+    73% 100%,
+    40% 100%,
+    0 100%,
+    0 53%,
+    0 0,
+    25% 10%
+  );
+}
+.text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+  top: 20vw;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-family: "Poppins";
+  animation-name: header;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes header {
+  0% {
+    opacity: 25%;
+  }
+  25% {
+    opacity: 50%;
+  }
+  50% {
+    opacity: 75%;
+  }
+  75% {
+    opacity: 100%;
+  }
+  90% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 50%;
+  }
+}
+.tud {
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 1vw;
+  margin-bottom: 7vw;
+  cursor: pointer;
+}
+.tud:hover {
+  transform: translateX(15px);
+}
+.section-2 {
+  display: list-item;
+  position: relative;
+}
+.bar {
+  /* position: absolute; */
+  width: 20%;
+  margin-left: 10%;
+  border-radius: 3vw;
+}
+.drink {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+
+  font-size: 2vw;
+}
+.bar:hover {
+  margin-left: 50px;
+}
+
+span {
+  color: rgb(155, 0, 0);
+}
+.drive {
+  margin-top: 5vw;
+  width: 20%;
+  margin-left: 5%;
+  border-radius: 3vw;
+}
+.ycd {
+  position: absolute;
+  top: 55%;
+  left: 28%;
+
+  font-size: 2vw;
+}
+
+.turtle {
+  margin-top: 5vw;
+  width: 20%;
+  margin-left: 10%;
+  border-radius: 3vw;
+}
+.sex {
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  font-size: 2vw;
+}
+.animation {
+  animation: totheleft 1.3s linear;
+}
+@keyframes totheleft {
+  0% {
+    margin-left: 20%;
+    font-size: 1vw;
+  }
+
+  /* 50% {
+    margin-left: 10%;
+  } */
+
+  100% {
+    margin-left: 0%;
+    font-size: 2vw;
+  }
+}
+
+.section-3 {
+}
+.text2 {
+  text-align: center;
+  margin-top: 10vw;
+  font-size: 4vw;
+  margin-bottom: 10vw;
+}
+.but {
+  font-size: 6vw;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+.couples {
+  border-radius: 10px;
+  width: 98%;
+  margin: 1%;
+}
+.section-4 {
+  position: relative;
+}
+.text3 {
+  color: rgb(251, 251, 251);
+  top: 12%;
+  left: 50px;
+  /* transform: translate(-50%, -20%); */
+  position: absolute;
+  font-size: 3.5vw;
+}
+.text4 {
+  color: white;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  position: absolute;
+  text-align: center;
+  font-size: 5vw;
+  width: 80%;
+  letter-spacing: 8px;
+}
+.span1 {
+  color: rgb(251, 251, 251);
+  /* cursor: pointer; */
+}
+@keyframes forever {
+  0% {
+    /* top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%); */
+    margin-left: 0px;
+  }
+  100% {
+    /* top: 80%;
+    left: 80%;
+    transform: translate(-80%, -80%); */
+    margin-left: 100px;
+  }
+}
+
+.span1:hover {
+  animation-name: forever;
+  animation-duration: 2s;
+  /* color: black; */
+}
+.section-5 {
+  position: relative;
+}
+
+.text5 {
+  text-align: center;
+  position: relative;
+  font-size: 4vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  width: 70%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.section6 {
+  position: relative;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.kisses {
+  margin: 1%;
+  width: 98%;
+}
+.kisses-text {
+  color: rgb(251, 251, 251);
+  top: 65%;
+  left: 65%;
+  transform: translate(-65%, -65%);
+  position: absolute;
+  font-size: 10vw;
+  letter-spacing: 10px;
+}
+.section7 {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  /* clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%); */
+  position: relative;
+}
+.hug {
+  margin: 1%;
+  width: 98%;
+}
+.hugs {
+  color: rgb(255, 255, 255);
+  top: 60%;
+  left: 35%;
+  transform: translate(-35%, -60%);
+  position: absolute;
+  font-size: 10vw;
+
+  letter-spacing: 10px;
+}
+.animation2 {
+  /* animation: totheleft2 5s linear; */
+  animation-name: totheleft2;
+}
+@keyframes totheleft2 {
+  0% {
+    margin-left: 30%;
+  }
+
+  /* 50% {
+    margin-left: 10%;
+  } */
+
+  100% {
+    margin-left: 0%;
+  }
+}
+.section-8 {
+  position: relative;
+  margin-top: 10%;
+}
+.party {
+  margin: 1%;
+  width: 98%;
+  border-radius: 10px;
+}
+.parties {
+  color: rgb(255, 255, 255);
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  position: absolute;
+  font-size: 10vw;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.p {
+  color: white;
+  font-size: 12vw;
+  letter-spacing: 15px;
+}
+.end {
+  position: relative;
+}
+.intheend {
+  margin-top: 5vw;
+  font-size: 5vw;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+.last {
+  color: rgb(255, 255, 255);
+  top: 25%;
+  left: 8%;
+  transform: translate(-10%, -20%);
+  position: absolute;
+  font-size: 5vw;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.lasttext {
+  color: rgb(255, 255, 255);
+  top: 90%;
+  left: 45%;
+  transform: translate(-45%, -90%);
+  position: absolute;
+  font-size: 5vw;
+  text-align: center;
+  letter-spacing: 5px;
+
+  width: 100%;
+}
+.was {
+  margin-top: 10vw;
+  text-align: center;
+  font-size: 4vw;
+  color: rgb(122, 0, 0);
+}
